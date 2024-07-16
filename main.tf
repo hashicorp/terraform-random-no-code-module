@@ -1,3 +1,5 @@
+provider "random" {}
+
 resource "random_string" "id" {
   keepers = {
       uuid = uuid()
